@@ -1,0 +1,10 @@
+<h1>Stupid Coaching</h1>
+<div class="bd-callout">
+  <p><%= params[:ask] %></p>
+  <p>-You</p>
+</div>
+<div class="answer bd-callout">
+  <h3><%= @answer  %></h3>
+  <p>-You coach</p>
+</div>
+<%= link_to "Get More Books", ask_path, class: "text-decoration-none" %>

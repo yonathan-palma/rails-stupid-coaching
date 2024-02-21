@@ -13,3 +13,19 @@
  *= require_tree .
  *= require_self
  */
+
+input.form-control {
+  margin-right: -4px;
+}
+input.btn.btn-primary{
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+}
+
+.bd-callout {
+  padding: 1.25rem;
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
+  background-color: rgb(255, 249, 164);
+  border-left: 0.25rem solid rgb(145, 144, 144)
+}
